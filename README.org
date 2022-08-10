@@ -4,12 +4,15 @@ A free tools to generate the Morrowind compatible font files,
 including a ~.tex~ file to store the textures 
 and a ~.fnt~ file to store the meta information.
 
-** compile
+** Compile
 #+begin_src bash
 make
 #+end_src
 
-** usage
+** Dependencies
+freetype2
+
+** Usage
 *** format
 #+begin_src bash
 generate_font_file path-to-font-file path-to-fnt-file path-to-tex-file
