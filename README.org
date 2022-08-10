@@ -1,0 +1,22 @@
+#+TITLE:Free Morrowind tools
+* generate_font_file
+A free tools to generate the Morrowind compatible font files,
+including a ~.tex~ file to store the textures 
+and a ~.fnt~ file to store the meta information.
+
+** compile
+#+begin_src bash
+make
+#+end_src
+
+** usage
+*** format
+#+begin_src bash
+generate_font_file path-to-font-file path-to-fnt-file path-to-tex-file
+#+end_src
+*** example
+#+begin_src bash
+generate_font_file /usr/share/fonts/truetype/wqy/wqy-microhei.ttc TES3CN.fnt TES3CN.tex
+#+end_src
+
+
